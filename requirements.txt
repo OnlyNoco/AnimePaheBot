@@ -1,0 +1,26 @@
+#--tg message handling and others--#
+pyrogram
+
+#--http requests handling--#
+aiohttp
+
+#--make pyrogram more fast--#
+tgcrypto
+
+#--mangodb handler--#
+pymongo
+
+#--connectivity helper--#
+dnspython
+
+#--pyrogram helper ext--#
+pyromod 
+
+#--convert for human readable format--# 
+humanize
+
+#--scrapering using cloud--#
+cloudscraper 
+
+#--general scraping--#
+beautifulsoup4
