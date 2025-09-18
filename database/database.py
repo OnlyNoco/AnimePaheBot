@@ -7,7 +7,7 @@ db = client[DB_NAME]
 collection = db["config"] 
 
 def save_channel_id(channel_id: int):
-  config_collection.find_one_and_update(
+  collection.find_one_and_update(
     {"_id": "channel"},
     {"$set": {"channel_id": channel_id}},
     upsert=True, 
@@ -15,5 +15,5 @@ def save_channel_id(channel_id: int):
   )
   
 def get_channel_id():
-  doc = config_collection.find_one({"_id": "channel"}) 
+  doc = collection.find_one({"_id": "channel"}) 
   return doc["channel_id"] if doc else None
