@@ -1,5 +1,5 @@
 #--tg message handling and others--#
-pyrogram
+pyrofork
 
 #--http requests handling--#
 aiohttp
@@ -18,9 +18,3 @@ pyromod
 
 #--convert for human readable format--# 
 humanize
-
-#--scrapering using cloud--#
-cloudscraper 
-
-#--general scraping--#
-beautifulsoup4

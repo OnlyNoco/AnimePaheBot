@@ -1,4 +1,4 @@
-from config import DB_URL, DB_BAME
+from config import DB_URL, DB_NAME
 from pymongo import MongoClient 
 
 # mongodb credentials 
