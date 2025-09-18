@@ -18,6 +18,8 @@ CMD_MSG = os.environ.get("CMD_MSG", "<blockquote>/start - to check bot alive or 
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/bjb.mp4 https://envs.sh/bjP.mp4 https://envs.sh/bjw.mp4 https://envs.sh/bj0.mp4 https://envs.sh/bjS.mp4 https://envs.sh/bjW.mp4 https://envs.sh/bjB.mp4 https://envs.sh/bjI.mp4 https://envs.sh/bjn.mp4 https://envs.sh/bjT.mp4 https://envs.sh/bjZ.mp4 https://envs.sh/bjL.mp4 https://envs.sh/bj5.mp4 https://envs.sh/bjY.mp4 https://envs.sh/bjC.mp4").split(" ")
 FLOOD_WAIT = int(os.environ.get("FLOOD_WAIT", "10")) # in seconds
 
+BOT_USERNAME = "Goddo_YatoBot"
+
 # Caption template html support
 ANIME_POST_TEMPLATE = """
 {title_eng}
@@ -36,8 +38,8 @@ ANIME_POST_TEMPLATE = """
 (Source: AniList)
 """ 
 
-EPISODE_POST_TEMPLATE = 
-"""<b><i>{anime_title}</i></b>
+
+EPISODE_POST_TEMPLATE = """<b><i>{anime_title}</i></b>
 ◐ Episode: {episode}
 ◐ Season: {season}
 ◑ Audio: {audio}""" 
