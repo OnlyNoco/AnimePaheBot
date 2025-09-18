@@ -16,9 +16,6 @@ async def start_command(client: Client, message: Message):
   reply_btns = InlineKeyboardMarkup(
     [
       [
-        InlineKeyboardButton("Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url=f"https://t.me/{bot_username}?startgroup=botstart")
-      ]
-      [
         InlineKeyboardButton("✏️ Aʙᴏᴜᴛ", callback_data="about"),
         InlineKeyboardButton("💨 Cᴏᴍᴍᴀɴᴅs", callback_data="cmd")
       ]
