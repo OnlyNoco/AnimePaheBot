@@ -85,7 +85,7 @@ async def process_episodes(client, anime_info, anilist_data, post_channel_id):
             db_msg = await client.send_document(
                 chat_id=DB_CHANNEL,
                 document=tmp_path, 
-                thumbnail=poster_url,
+                thumb=poster_url,
                 progress=progress_bar,
                 progress_args=(start_time, progress_msg, "Uploading")
             )
