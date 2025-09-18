@@ -2,7 +2,8 @@
 pyrofork
 
 #--http requests handling--#
-aiohttp
+aiohttp 
+requests
 
 #--make pyrogram more fast--#
 tgcrypto
@@ -17,4 +18,4 @@ dnspython
 pyromod 
 
 #--convert for human readable format--# 
-humanize
+humanize 
