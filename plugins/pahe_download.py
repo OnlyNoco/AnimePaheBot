@@ -94,8 +94,7 @@ async def handle_json(client, message):
           client=client,
           anime_info=anime_info,
           anilist_data=anilist_data,
-          post_channel_id=post_channel_id,
-          cover_url=anilist_data['anime_cover_url']
+          post_channel_id=post_channel_id
         )
         
         
